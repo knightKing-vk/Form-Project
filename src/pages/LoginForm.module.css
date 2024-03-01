@@ -1,0 +1,54 @@
+.form {
+  height: 23rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.inputField {
+  display: flex;
+  gap: 0.5rem;
+  width: 80%;
+  border-bottom: 2px solid var(--gray-color);
+}
+
+.passwordInput {
+  width: 90%;
+}
+
+.errorMessageContainer {
+  width: 100%;
+  margin-left: 4rem;
+}
+
+.errorMessage {
+  color: rgb(179, 30, 30);
+}
+
+h1,
+.inputIcon {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.loginBtn {
+  height: 2rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: var(--hover-color);
+}
+
+.linkBtn:hover {
+  color: rgb(161, 150, 150);
+  cursor: pointer;
+}
